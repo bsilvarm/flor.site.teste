@@ -1,0 +1,31 @@
+body {
+    background-color: #af4dff; /* Vermelho apaixonado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff; /* Branco como a neve */
+    font-size: 148px;
+    text-align: center;
+}
+
+button {
+    background-color: #c466ff; /* Tom suave de laranja */
+    color: #ffffff; /* Branco como a neve */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave de cor */
+}
+
+button:hover {
+    background-color: #8b33ff; /* Laranja mais intenso ao passar o mouse */
+}
